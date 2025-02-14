@@ -1,0 +1,37 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --primary: 199 95% 48%;
+    --primary-foreground: 210 40% 98%;
+    --border: 215 25% 27%;
+    --ring: 216 34% 17%;
+  }
+
+  body {
+    @apply bg-black text-gray-300 min-h-screen;
+  }
+}
+
+.timeline-line {
+  @apply absolute left-2.5 h-full w-0.5 bg-primary/30;
+}
+
+.timeline-dot {
+  @apply absolute left-0 w-5 h-5 rounded-full border-2 border-primary bg-black;
+}
+
+.glass-card {
+  @apply bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-lg hover:border-primary/50 transition-colors;
+}
+
+.section-title {
+  @apply text-primary text-sm uppercase tracking-wider font-medium mb-6;
+}
