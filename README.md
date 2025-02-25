@@ -10,7 +10,7 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone https://github.com/SrisailamKakurala/azure-blackfolio.git
+git clone https://github.com/SrisailamKakurala/azure-blackfolio.git --depth=1
 
 # Step 2: Navigate to the project directory.
 cd azure-blackfolio
