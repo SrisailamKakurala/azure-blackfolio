@@ -22,6 +22,10 @@ npm i
 npm run dev
 ```
 
+## CUSTOMIZATION: ( All You Have To Do :-) )
+Change the Contents in `**src/constants/content.ts**` for personal customization!!
+Happy Tampering!!
+
 ## What technologies are used for this project?
 
 This project is built with .
